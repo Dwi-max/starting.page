@@ -44,6 +44,12 @@ body {
     display: flex;
     list-style: none;
     justify-content: space-between;
+    transition: 200ms;
+
+}
+
+.link a img:hover {
+    transform: scale(1.1);
 }
 
 #name {
