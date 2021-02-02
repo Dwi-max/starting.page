@@ -55,4 +55,5 @@ body {
     font-size: 40px;
     font-weight: 300;
     transition: 400ms;
+    cursor: context-menu;
 }
