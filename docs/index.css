@@ -10,6 +10,9 @@ body {
 }
 
 .gsc-control-cse {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 60% !important;
     margin-top: 100px !important;
     background: transparent !important;
     /* enforce this rule; do not allow override */
