@@ -5,10 +5,17 @@
 
 body {
     font-family: 'poppins', sans-serif;
-    background-color: rgb(56, 56, 56);
+    background-image: url(./mikasa.jpg);
+    background-size: cover;
 }
 
-
+.gsc-control-cse {
+    margin-top: 100px !important;
+    background: transparent !important;
+    /* enforce this rule; do not allow override */
+    border-color: transparent !important;
+    /* border color */
+}
 
 .name {
     width: 50%;
@@ -33,7 +40,7 @@ body {
 }
 
 .favweb {
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
